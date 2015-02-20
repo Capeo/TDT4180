@@ -1,0 +1,35 @@
+.dl {
+	-fx-background-radius: 20;
+	-fx-background-color: #66CC66;
+	}
+	
+.dw {
+	-fx-background-radius: 20;
+	-fx-background-color: #CC6600;
+	}
+	
+.letter {
+	-fx-background-color: #FFFFFF;
+	-fx-background-radius: 20;
+	-fx-opacity: 0.9;
+	}
+	
+.pane {
+	-fx-background-color: #282828;
+	-fx-background-radius: 15;
+	}
+	
+.root {
+	-fx-background-color: #000000;
+}
+
+.star {
+	-fx-background-color: #9900FF;
+	-fx-background-image: url('../../resources/star.png');
+	-fx-background-radius: 20;
+	}
+	
+.tl {
+	-fx-background-radius: 20;
+	-fx-background-color: #0099FF;
+	}

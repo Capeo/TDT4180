@@ -1,64 +1,342 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.*?>
+<?import java.net.*?>
 <?import java.util.*?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?scenebuilder-stylesheet wordfeud.css?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+<AnchorPane id=".root" fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="760.0" styleClass="root" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
   <children>
-    <TilePane layoutX="0.0" layoutY="0.0" prefColumns="7" prefHeight="700.0" prefRows="7" prefTileHeight="100.0" prefTileWidth="100.0" prefWidth="700.0">
+    <TilePane hgap="10.0" layoutX="0.0" layoutY="0.0" prefColumns="7" prefHeight="760.0" prefRows="7" prefWidth="760.0" vgap="10.0">
       <children>
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
-        <Pane prefHeight="200.0" prefWidth="200.0" />
+        <Pane opacity="1.0" prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="dw">
+          <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="99.99997792968497" text="DW" textAlignment="CENTER" textFill="WHITE" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="50.0" fx:id="x1" />
+              </font>
+            </Label>
+          </children>
+          <stylesheets>
+            <URL value="@dw.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="star">
+          <stylesheets>
+            <URL value="@star.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="dl">
+          <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="99.99997792968497" text="DL" textAlignment="CENTER" textFill="WHITE" underline="false" wrapText="false" />
+          </children>
+          <stylesheets>
+            <URL value="@dl.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="dl">
+          <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="99.99997792968497" text="DL" textAlignment="CENTER" textFill="WHITE" underline="false" wrapText="false" />
+          </children>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="tl">
+          <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="99.99997792968497" text="TL" textAlignment="CENTER" textFill="WHITE" underline="false" wrapText="false" />
+          </children>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="tl">
+          <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="99.99997792968497" text="TL" textAlignment="CENTER" textFill="WHITE" underline="false" wrapText="false" />
+          </children>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="dw">
+          <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="99.99997792968497" text="DW" textAlignment="CENTER" textFill="WHITE" underline="false" wrapText="false" />
+          </children>
+          <stylesheets>
+            <URL value="@dw.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="dl">
+          <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="99.99997792968497" text="DL" textAlignment="CENTER" textFill="WHITE" underline="false" wrapText="false" />
+          </children>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="tl">
+          <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="99.99997792968497" text="TL" textAlignment="CENTER" textFill="WHITE" underline="false" wrapText="false" />
+          </children>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="dw">
+          <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="99.99997792968497" text="DW" textAlignment="CENTER" textFill="WHITE" underline="false" wrapText="false" />
+          </children>
+          <stylesheets>
+            <URL value="@dw.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="dw">
+          <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="99.99997792968497" text="DW" textAlignment="CENTER" textFill="WHITE" underline="false" wrapText="false" />
+            <Pane layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="100.0" styleClass="letter">
+              <children>
+                <Label alignment="CENTER" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="100.0" text="R">
+                  <font>
+                    <Font size="80.0" fx:id="x2" />
+                  </font>
+                </Label>
+                <Label layoutX="74.0" layoutY="4.0" prefHeight="30.6015625" prefWidth="20.0" text="2">
+                  <font>
+                    <Font size="30.0" fx:id="x3" />
+                  </font>
+                </Label>
+              </children>
+              <stylesheets>
+                <URL value="@letter.css" />
+              </stylesheets>
+            </Pane>
+          </children>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <children>
+            <Pane layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="100.0" styleClass="letter">
+              <children>
+                <Label alignment="CENTER" font="$x2" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="100.0" text="I" />
+                <Label font="$x3" layoutX="74.0" layoutY="4.0" prefHeight="30.6015625" prefWidth="20.0" text="2" />
+              </children>
+              <stylesheets>
+                <URL value="@letter.css" />
+              </stylesheets>
+            </Pane>
+          </children>
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <children>
+            <Pane layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="100.0" styleClass="letter">
+              <children>
+                <Label alignment="CENTER" font="$x2" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="100.0" text="V" />
+                <Label font="$x3" layoutX="74.0" layoutY="4.0" prefHeight="30.6015625" prefWidth="20.0" text="4" />
+              </children>
+              <stylesheets>
+                <URL value="@letter.css" />
+              </stylesheets>
+            </Pane>
+          </children>
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <children>
+            <Pane layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="100.0" styleClass="letter">
+              <children>
+                <Label alignment="CENTER" font="$x2" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="100.0" text="E" />
+                <Label font="$x3" layoutX="74.0" layoutY="4.0" prefHeight="30.6015625" prefWidth="20.0" text="1" />
+              </children>
+              <stylesheets>
+                <URL value="@letter.css" />
+              </stylesheets>
+            </Pane>
+          </children>
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="dl">
+          <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="99.99997792968497" text="DL" textAlignment="CENTER" textFill="WHITE" underline="false" wrapText="false" />
+            <Pane layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="100.0" styleClass="letter">
+              <children>
+                <Label alignment="CENTER" font="$x2" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="100.0" text="R" />
+                <Label font="$x3" layoutX="74.0" layoutY="4.0" prefHeight="30.6015625" prefWidth="20.0" text="2" />
+              </children>
+              <stylesheets>
+                <URL value="@letter.css" />
+              </stylesheets>
+            </Pane>
+          </children>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="dl">
+          <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="99.99997792968497" text="DL" textAlignment="CENTER" textFill="WHITE" underline="false" wrapText="false" />
+          </children>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="tl">
+          <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="99.99997792968497" text="TL" textAlignment="CENTER" textFill="WHITE" underline="false" wrapText="false" />
+          </children>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
+        <Pane prefHeight="100.0" prefWidth="100.0" styleClass="pane">
+          <stylesheets>
+            <URL value="@pane.css" />
+          </stylesheets>
+        </Pane>
       </children>
     </TilePane>
   </children>
+  <stylesheets>
+    <URL value="@root.css" />
+  </stylesheets>
 </AnchorPane>

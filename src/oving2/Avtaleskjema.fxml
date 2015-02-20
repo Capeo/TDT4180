@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="900.0" styleClass="anchor" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oving2.AppointmentController">
+  <children>
+    <Pane fx:id="background" layoutX="25.0" layoutY="25.0" prefHeight="850.0" prefWidth="850.0" styleClass="background">
+         <children>
+            <Label fx:id="tittel" layoutX="50.0" layoutY="30.0" prefHeight="70.0" prefWidth="500.0" styleClass="tittel" text="Avtaleskjema" />
+            <TextField fx:id="romField" layoutX="200.0" layoutY="140.0" prefHeight="30.0" prefWidth="200.0" />
+            <TextField fx:id="formålField" layoutX="200.0" layoutY="200.0" prefHeight="31.0" prefWidth="460.0" />
+            <DatePicker fx:id="startDate" layoutX="200.0" layoutY="260.0" prefHeight="30.0" prefWidth="200.0" />
+            <TextField fx:id="startTidHH" layoutX="200.0" layoutY="320.0" prefHeight="30.0" prefWidth="50.0" />
+            <TextField fx:id="startTidMM" layoutX="265.0" layoutY="320.0" prefHeight="30.0" prefWidth="50.0" />
+            <TextField fx:id="slutTidHH" layoutX="200.0" layoutY="380.0" prefHeight="30.0" prefWidth="50.0" />
+            <TextField fx:id="slutTidMM" layoutX="265.0" layoutY="380.0" prefHeight="30.0" prefWidth="50.0" />
+            <Label fx:id="romLabel" layoutX="50.0" layoutY="140.0" prefHeight="31.0" prefWidth="110.0" styleClass="tekst" text="Rom:" />
+            <Label fx:id="formålLabel" layoutX="50.0" layoutY="200.0" prefHeight="31.0" prefWidth="110.0" styleClass="tekst" text="Formål:" />
+            <Label fx:id="datoLabel" layoutX="50.0" layoutY="260.0" prefHeight="31.0" prefWidth="110.0" styleClass="tekst" text="Dato:" />
+            <Label fx:id="startLabel" layoutX="50.0" layoutY="320.0" prefHeight="31.0" prefWidth="125.0" styleClass="tekst" text="Starttidspunkt:" />
+            <Label fx:id="sluttLabel" layoutX="50.0" layoutY="380.0" prefHeight="31.0" prefWidth="125.0" styleClass="tekst" text="Sluttidspunkt:" />
+            <CheckBox fx:id="gjentaBox" layoutX="65.0" layoutY="470.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="100.0" styleClass="tekst" text="Gjenta?" />
+            <TextField fx:id="repfrekvens" layoutX="330.0" layoutY="540.0" prefHeight="31.0" prefWidth="100.0" />
+            <DatePicker fx:id="sluttDato" layoutX="330.0" layoutY="590.0" prefHeight="31.0" prefWidth="200.0" />
+            <Label fx:id="startTidMark" layoutX="255.0" layoutY="322.0" styleClass="tekst" text=":" />
+            <Label fx:id="slutTidMark" layoutX="255.0" layoutY="382.0" styleClass="tekst" text=":" />
+            <Label fx:id="repFrekvLabel" layoutX="100.0" layoutY="540.0" prefHeight="23.0" prefWidth="177.0" styleClass="tekst" text="Repetisjonsfrekvens:" />
+            <Label fx:id="sluttDatoLabel" layoutX="100.0" layoutY="590.0" styleClass="tekst" text="Slutt dato:" />
+            <Button fx:id="send" layoutX="720.0" layoutY="780.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" styleClass="knapp" text="Submit" />
+            <Button fx:id="reset" layoutX="628.0" layoutY="780.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" styleClass="knapp" text="Reset" />
+            <Button fx:id="cancel" layoutX="535.0" layoutY="780.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" styleClass="knapp" text="Cancel" />
+            <Line fx:id="line" endX="750.0" layoutX="50.0" layoutY="515.0" />
+            <Label fx:id="ugyldigRomLabel" layoutX="450.0" layoutY="140.0" prefHeight="31.0" prefWidth="150.0" styleClass="invalidTekst" text="Ugyldig rom" />
+            <Label fx:id="ugyldigDatoLabel" layoutX="450.0" layoutY="260.0" prefHeight="31.0" prefWidth="150.0" styleClass="invalidTekst" text="Ugyldig dato" />
+            <Label fx:id="ugyldigStartTid" layoutX="375.0" layoutY="320.0" prefHeight="31.0" prefWidth="177.0" styleClass="invalidTekst" text="Ugyldig tidspunkt" />
+            <Label fx:id="ugyldigSlutTid" layoutX="375.0" layoutY="380.0" prefHeight="31.0" prefWidth="177.0" styleClass="invalidTekst" text="Ugyldig tidspunkt" />
+            <Label fx:id="ugyldigFrekvens" layoutX="580.0" layoutY="540.0" prefHeight="31.0" prefWidth="177.0" styleClass="invalidTekst" text="Ugyldig frekvens" />
+            <Label fx:id="ugyldigSluttDato" layoutX="580.0" layoutY="590.0" prefHeight="31.0" prefWidth="177.0" styleClass="invalidTekst" text="Ugyldig dato" />
+         </children></Pane>
+  </children>
+</AnchorPane>

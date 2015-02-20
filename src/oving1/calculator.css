@@ -1,0 +1,35 @@
+.pane {
+	-fx-background-color: #000000;
+	}
+	
+.button1 {
+	-fx-background-color: #DDDDDD;
+	-fx-font-family: 'sans-serif';
+	-fx-font-size: 30;
+	-fx-border-width: 1;
+	-fx-border-color: #000000;
+	}
+	
+.button0 {
+	-fx-background-color: #DDDDDD;
+	-fx-alignment: LEFT; 
+	-fx-font-family: 'sans-serif';
+	-fx-font-size: 30;
+	-fx-border-width: 1;
+	-fx-border-color: #000000;
+	}
+	
+.button2 {
+	-fx-background-color: #FF8800;
+	-fx-font-family: 'sans-serif';
+	-fx-font-size: 20;
+	-fx-border-width: 1;
+	-fx-border-color: #000000;
+	}
+	
+.label {
+	-fx-font-family: 'sans-serif';
+	-fx-font-size: 90;
+	-fx-text-fill: #FFFFFF;
+	}
+	

@@ -1,0 +1,31 @@
+.anchor {
+	-fx-background-color: #FFFFFF;
+	}
+
+.background {
+	-fx-background-color: #FFFFFF;
+	-fx-border-width: 5;
+	-fx-border-radius: 20;
+	-fx-border-color: #003399;
+	}
+
+.tittel {
+	-fx-font-size: 70;
+	-fx-font-family: serif;
+	}
+
+.tekst {
+	-fx-font-size: 20;
+	-fx-font-family: serif;
+	}
+
+.knapp {
+	-fx-font-size: 17;
+	-fx-font-family: serif;
+	}
+
+.invalidTekst {
+	-fx-font-size: 20;
+	-fx-font-family: serif;
+	-fx-text-fill: #E80000;
+	}

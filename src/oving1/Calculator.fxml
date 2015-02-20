@@ -1,8 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+
+
+<AnchorPane id=".root" prefHeight="700" prefWidth="400" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<Pane prefHeight="200" prefWidth="400" layoutX="0" layoutY="0" styleClass="pane">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Pane>
+		<Button fx:id="C" layoutX="0" layoutY="200" prefHeight="100" prefWidth="100" text="C" styleClass="button1">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="100" layoutY="200" prefHeight="100" prefWidth="100" text="+/-" styleClass="button1">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="200" layoutY="200" prefHeight="100" prefWidth="100" text="\%" styleClass="button1">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="0" layoutY="300" prefHeight="100" prefWidth="100" text="7" styleClass="button1">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="100" layoutY="300" prefHeight="100" prefWidth="100" text="8" styleClass="button1">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="200" layoutY="300" prefHeight="100" prefWidth="100" text="9" styleClass="button1">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="0" layoutY="400" prefHeight="100" prefWidth="100" text="4" styleClass="button1">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="100" layoutY="400" prefHeight="100" prefWidth="100" text="5" styleClass="button1">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="200" layoutY="400" prefHeight="100" prefWidth="100" text="6" styleClass="button1">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="0" layoutY="500" prefHeight="100" prefWidth="100" text="1" styleClass="button1">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="100" layoutY="500" prefHeight="100" prefWidth="100" text="2" styleClass="button1">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="200" layoutY="500" prefHeight="100" prefWidth="100" text="3" styleClass="button1">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="0" layoutY="600" prefHeight="100" prefWidth="200" text="0" styleClass="button0">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="200" layoutY="600" prefHeight="100" prefWidth="100" text="." styleClass="button1">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="300" layoutY="200" prefHeight="100" prefWidth="100" text="/" styleClass="button2">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="300" layoutY="300" prefHeight="100" prefWidth="100" text="X" styleClass="button2">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="300" layoutY="400" prefHeight="100" prefWidth="100" text="-" styleClass="button2">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="300" layoutY="500" prefHeight="100" prefWidth="100" text="+" styleClass="button2">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Button layoutX="300" layoutY="600" prefHeight="100" prefWidth="100" text="=" styleClass="button2">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Button>
+		<Label layoutX="0" layoutY="100" alignment="CENTER_RIGHT" prefHeight="100" prefWidth="400" text="1,478" styleClass="label">
+			<stylesheets>
+            	<URL value="file:/C:/Users/Odd/git/TDT4180/src/oving1/calculator.css" />
+          	</stylesheets>
+		</Label>
+	</children>
 </AnchorPane>
 
